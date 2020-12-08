@@ -31,10 +31,10 @@
     <img src="src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">50projects50days</h3>
+  <h3 align="center">50 Projects 50 Days</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome set of projects to jumpstart your frontend coding skills!
     <br />
     <a href="https://github.com/aulbytj/50projects50days"><strong>Explore the docs »</strong></a>
     <br />

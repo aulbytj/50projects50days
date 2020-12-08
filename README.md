@@ -158,7 +158,7 @@ Project Link: [https://github.com/aulbytj/50projects50days](https://github.com/a
 [issues-shield]: https://img.shields.io/github/issues/aulbytj/50projects50days.svg?style=for-the-badge
 [issues-url]: https://github.com/aulbytj/50projects50days/issues
 [license-shield]: https://img.shields.io/github/license/aulbytj/50projects50days.svg?style=for-the-badge
-[license-url]: https://github.com/aulbytj/50projects50days/blob/master/LICENSE.txt
+[license-url]: https://github.com/aulbytj/50projects50days/blob/develop/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aulbytj
 [product-screenshot]: images/screenshot.png

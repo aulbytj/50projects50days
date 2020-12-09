@@ -76,7 +76,19 @@
 ## About The Project
 
 This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javascript projects in 50 days, one project per day. This is from the Udemy course  [50 projects in 50 days](https://www.udemy.com/course/50-projects-50-days). It is great for beginners and seasoned Web Developers to sharpen their frontend skills.
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+
+<h3 align="center"> Expanding Cards Project</h3>
+<p>
+  <a href="https://expanding-cards.vercel.app/">
+    <img src="src/images/Screenshot-expanding-cards.jpg" alt="Screenshot">
+  </a>
+  <p align="center">
+    <a href="https://expanding-cards.vercel.app/"><strong>View Demo »</strong></a>
+  </p>
+</p>
+
+
+
 
 
 ### Built With.

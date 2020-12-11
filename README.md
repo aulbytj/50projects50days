@@ -87,6 +87,16 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
   </p>
 </p>
 
+<h3 align="center"> Progress Steps Project</h3>
+<p>
+  <a href="https://expanding-cards.vercel.app/">
+    <img src="src/images/Screenshot-progress-steps.png" alt="Screenshot">
+  </a>
+  <p align="center">
+    <a href="https://expanding-cards.vercel.app/"><strong>View Demo »</strong></a>
+  </p>
+</p>
+
 
 
 

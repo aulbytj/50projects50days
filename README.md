@@ -98,6 +98,16 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 </p>
 
 
+<h3 align="center"> Rotating Navigation Project</h3>
+<p>
+  <a href="https://rotating-navigation.vercel.app/">
+    <img src="src/images/Screenshot-rotating-navigation.png" alt="Screenshot">
+  </a>
+  <p align="center">
+    <a href="https://rotating-navigation.vercel.app/"><strong>View Demo »</strong></a>
+  </p>
+</p>
+
 
 
 

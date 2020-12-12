@@ -1,21 +1,37 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   font-family: "Muli", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
 }
 
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 90vw;
 }
@@ -28,11 +44,17 @@ body {
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
-  flex: 0.5;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
   /* margin: 10px; */
   margin: 0.5em;
   position: relative;
+  -webkit-transition: -webkit-box-flex 0.7s ease-in;
+  transition: -webkit-box-flex 0.7s ease-in;
+  -o-transition: flex 0.7s ease-in;
   transition: flex 0.7s ease-in;
+  transition: flex 0.7s ease-in, -webkit-box-flex 0.7s ease-in, -ms-flex 0.7s ease-in;
 }
 
 .panel h3 {
@@ -46,11 +68,15 @@ body {
 }
 
 .panel.active {
-  flex: 5;
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
 }
 
 .panel.active h3 {
   opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in 0.4s;
+  -o-transition: opacity 0.3s ease-in 0.4s;
   transition: opacity 0.3s ease-in 0.4s;
 }
 

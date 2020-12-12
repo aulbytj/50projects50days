@@ -134,6 +134,7 @@ Clone the repo
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+These projects can be used in you own small or large projects, or as a way to sharpen you skills with HTML, CSS and Javascript.
 
 <!-- ROADMAP -->
 ## Roadmap

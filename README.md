@@ -80,7 +80,7 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 <h3 align="center"> Expanding Cards Project</h3>
 <p>
   <a href="https://expanding-cards.vercel.app/">
-    <img src="src/images/Screenshot-expanding-cards.jpg" alt="Screenshot">
+    <img src="src/images/Screenshot-expanding-cards.png" alt="Screenshot">
   </a>
   <p align="center">
     <a href="https://expanding-cards.vercel.app/"><strong>View Demo »</strong></a>

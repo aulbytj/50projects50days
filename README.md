@@ -109,6 +109,15 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 </p>
 
 
+<h3 align="center"> Hidden Search Project</h3>
+<p>
+  <a href="https://hidden-search.vercel.app/">
+    <img src="src/images/Screenshot-hidden-search.png" alt="Screenshot">
+  </a>
+  <p align="center">
+    <a href="https://hidden-search.vercel.app/"><strong>View Demo »</strong></a>
+  </p>
+</p>
 
 
 ### Built With.

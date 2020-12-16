@@ -1,16 +1,35 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(52.3%, 65.8%, 97.2%)), to(rgb(27.5%, 48.4%, 96.8%)));
+  background-image: -o-linear-gradient(left, rgb(52.3%, 65.8%, 97.2%), rgb(27.5%, 48.4%, 96.8%));
   background-image: linear-gradient(90deg, rgb(52.3%, 65.8%, 97.2%), rgb(27.5%, 48.4%, 96.8%));
   font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -28,6 +47,8 @@ body {
   padding: .7em;
   height: 50px;
   width: 50px;
+  -webkit-transition: width 0.3s ease;
+  -o-transition: width 0.3s ease;
   transition: width 0.3s ease;
 }
 
@@ -41,7 +62,11 @@ body {
   left: 0;
   height: 50px;
   width: 50px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .btn:focus,
@@ -54,5 +79,7 @@ body {
 }
 
 .search.active .btn {
-  transform: translateX(198px);
+  -webkit-transform: translateX(198px);
+      -ms-transform: translateX(198px);
+          transform: translateX(198px);
 }

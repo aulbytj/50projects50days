@@ -111,11 +111,11 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 
 <h3 align="center"> Hidden Search Project</h3>
 <p>
-  <a href="https://hidden-search.vercel.app/">
+  <a href="https://hungry-feynman-cb2b6c.netlify.app/">
     <img src="src/images/Screenshot-hidden-search.png" alt="Screenshot">
   </a>
   <p align="center">
-    <a href="https://hidden-search.vercel.app/"><strong>View Demo »</strong></a>
+    <a href="https://hungry-feynman-cb2b6c.netlify.app/"><strong>View Demo »</strong></a>
   </p>
 </p>
 

@@ -131,6 +131,16 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 </p>
 
 
+<h3 align="center"> Scroll Animation Project</h3>
+<p>
+  <a href="hhttps://elated-turing-311e14.netlify.app/">
+    <img src="src/images/Screenshot-scroll-animation.png" alt="Screenshot">
+  </a>
+  <p align="center">
+    <a href="https://elated-turing-311e14.netlify.app/"><strong>View Demo »</strong></a>
+  </p>
+</p>
+
 
 ### Built With.
 

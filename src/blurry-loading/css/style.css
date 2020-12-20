@@ -1,0 +1,48 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-direction: column; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+.bg {
+  background: url('https://images.unsplash.com/photo-1606248627653-f3d6b573deb8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+  position: absolute;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 2.3rem;
+  color: #fff;
+}

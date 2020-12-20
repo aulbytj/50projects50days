@@ -122,11 +122,11 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 
 <h3 align="center"> Blurry Loading Project</h3>
 <p>
-  <a href="https://hungry-feynman-cb2b6c.netlify.app/">
+  <a href="hhttps://elated-turing-311e14.netlify.app/">
     <img src="src/images/Screenshot-blurry-loading.png" alt="Screenshot">
   </a>
   <p align="center">
-    <a href="https://hungry-feynman-cb2b6c.netlify.app/"><strong>View Demo »</strong></a>
+    <a href="https://elated-turing-311e14.netlify.app/"><strong>View Demo »</strong></a>
   </p>
 </p>
 

@@ -142,6 +142,17 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 </p>
 
 
+<h3 align="center"> Split Landing Page Project</h3>
+<p>
+  <a href="https://nostalgic-ride-b880f3.netlify.app/">
+    <img src="src/images/Screenshot-split-landing-page.png" alt="Screenshot">
+  </a>
+  <p align="center">
+    <a href="https://nostalgic-ride-b880f3.netlify.app/"><strong>View Demo »</strong></a>
+  </p>
+</p>
+
+
 ### Built With.
 
 * HTML

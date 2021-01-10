@@ -155,11 +155,11 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 
 <h3 align="center"> Form Wave Animation Project</h3>
 <p>
-  <a href="https://flamboyant-austin-8d316a.netlify.app/">
+  <a href="https://tender-chandrasekhar-61c01e.netlify.app/">
     <img src="src/images/Screenshot-form-wave-animation.png" alt="Screenshot">
   </a>
   <p align="center">
-    <a href="https://nostalgic-ride-b880f3.netlify.app/"><strong>View Demo »</strong></a>
+    <a href="https://tender-chandrasekhar-61c01e.netlify.app/"><strong>View Demo »</strong></a>
   </p>
 </p>
 

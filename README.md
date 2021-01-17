@@ -165,11 +165,11 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 
 <h3 align="center"> Sound Board Project</h3>
 <p>
-  <a href="https://tender-chandrasekhar-61c01e.netlify.app/">
+  <a href="https://peaceful-bose-41061d.netlify.app/">
     <img src="src/images/Screenshot-sound-board.png" alt="Screenshot">
   </a>
   <p align="center">
-    <a href="https://tender-chandrasekhar-61c01e.netlify.app/"><strong>View Demo »</strong></a>
+    <a href="https://peaceful-bose-41061d.netlify.app/"><strong>View Demo »</strong></a>
   </p>
 </p>
 

@@ -1,0 +1,84 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: rgba(2.2%, 55.3%, 97.2%, 1);
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 2em;
+}
+
+.container  {
+  background-color: #fff;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  padding: 2em;
+  max-width: 100%;
+  width: 800px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 0;
+  opacity: 0.5;
+  letter-spacing: 1px;
+}
+
+.joke {
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  margin: 50px auto;
+  /* width: 600px; */
+  width: 80%;
+}
+
+.btn {
+  background-color: rgba(33.6%, 69.6%, 98%, 1);
+  border: 0;
+  border-radius: 10px;
+  padding: 14px 40px;
+  -webkit-box-shadow:  3px 3px 5px 0px rgba(121, 120, 120, 0.75);
+          box-shadow:  3px 3px 5px 0px rgba(121, 120, 120, 0.75);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem
+}
+
+.btn:active {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9)
+}
+
+.btn:focus {
+  outline: 0;
+}
+

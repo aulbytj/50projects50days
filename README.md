@@ -175,11 +175,11 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 
 <h3 align="center"> Dad Jokes Project</h3>
 <p>
-  <a href="https://peaceful-bose-41061d.netlify.app/">
+  <a href="https://upbeat-villani-0ad4a8.netlify.app/">
     <img src="src/images/Screenshot-dad-jokes.png" alt="Screenshot">
   </a>
   <p align="center">
-    <a href="https://peaceful-bose-41061d.netlify.app/"><strong>View Demo »</strong></a>
+    <a href="https://upbeat-villani-0ad4a8.netlify.app/"><strong>View Demo »</strong></a>
   </p>
 </p>
 

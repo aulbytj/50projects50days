@@ -1,114 +1,154 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 
 * {
-  box-sizing: border-box;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
 }
 
 body {
-  font-family: "Muli", sans-serif;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  /* height: 100vh;
-  overflow: hidden; */
-  margin: 0;
-  background-color:#f0f0f0
+font-family: "Muli", sans-serif;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+/* justify-content: center; */
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+/* height: 100vh;
+overflow: hidden; */
+margin: 0;
+background-color:#f0f0f0
 }
 
 h1 {
-  margin:  50px 0 30px;
-  text-align: center
+margin:  50px 0 30px;
+text-align: center
 }
 
 .faq-container {
-  max-width: 660px;
+max-width: 660px;
 }
 
 .faq {
-  background-color: transparent;
-  border: 1px solid #9fa4a8;
-  border-radius: 10px;
-  margin: 20px 0;
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s ease;
+background-color: transparent;
+border: 1px solid #9fa4a8;
+border-radius: 10px;
+margin: 20px 0;
+padding: 30px;
+position: relative;
+overflow: hidden;
+-webkit-transition: 0.3s ease;
+-o-transition: 0.3s ease;
+transition: 0.3s ease;
 }
 
 .faq.active {
-  background-color: #fff;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1),
-  0 3px 6px rgba(0,0,0,0.1);
+background-color: #fff;
+-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.1),
+0 3px 6px rgba(0,0,0,0.1);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1),
+0 3px 6px rgba(0,0,0,0.1);
 }
 
 .faq.active::before,
 .faq.active::after {
-  content: "\f075";
-  font-family: 'Font Awesome 5 Free';
-  font-size: 7rem;
-  color: #2ecc71;
-  position: absolute;
-  opacity: 0.2;
-  top: 20px;
-  left: 20px;
-  z-index: 0;
+content: "\f075";
+font-family: 'Font Awesome 5 Free';
+font-size: 7rem;
+color: #2ecc71;
+position: absolute;
+opacity: 0.2;
+top: 20px;
+left: 20px;
+z-index: 0;
 }
 
 .faq.active::before {
-  color: #3498db;
-  top:-10px;
-  left:-30px;
-  transform: rotateY(180deg);
+color: #3498db;
+top:-10px;
+left:-30px;
+-webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
 }
 
 .faq-title {
-  margin: 0 35px 0 0;
+margin: 0 35px 0 0;
 }
 
 .faq-text {
-  display: none;
-  margin: 30px 0 0;
+display: none;
+margin: 30px 0 0;
 }
 
 .faq.active .faq-text {
-  display: block;
+display: block;
 }
 
 .faq-toggle {
-  background-color: transparent;
-  border: 0;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size:16px;
-  padding: 0;
- position: absolute;
- top: 30px;
- right:30px;
- height: 30px;
- width: 30px;
+background-color: transparent;
+border: 0;
+border-radius: 50%;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+cursor: pointer;
+font-size:16px;
+padding: 0;
+position: absolute;
+top: 30px;
+right:30px;
+height: 30px;
+width: 30px;
 }
 
 .faq-toggle .fa-times {
-  display: none;
+display: none;
 }
 
 .faq.active .faq-toggle .fa-times {
-  color: white;
-  display: block;
+color: white;
+display: block;
 }
 
 .faq.active .faq-toggle .fa-chevron-down {
-  display: none;
+display: none;
 }
 
 .faq-toggle:focus {
-  outline:none;
+outline:none;
 }
 
 .faq.active .faq-toggle {
-  background-color: lightgrey;
+background-color: lightgrey;
 }

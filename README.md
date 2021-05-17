@@ -204,15 +204,12 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
 </p>
 
 <h3 align="center"> Choice Picker UI Project</h3>
-<p>
-  <a href="https://musing-swartz-a1476c.netlify.app/">
-    ![Screenshot-choice-picker](https://user-images.githubusercontent.com/15934054/118532763-513bc580-b715-11eb-821a-457049df74cc.gif)
 
-  </a>
+![Screenshot-choice-picker](https://user-images.githubusercontent.com/15934054/118533139-b1326c00-b715-11eb-8b04-ed471ebfd0eb.gif)
+
   <p align="center">
     <a href="https://musing-swartz-a1476c.netlify.app/"><strong>View Demo »</strong></a>
   </p>
-</p>
 
 
 ### Built With.

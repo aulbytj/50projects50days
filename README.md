@@ -212,6 +212,14 @@ This is the 50 Projects in 50 Days, where as i will build 50 HTML, CSS and Javas
   </p>
 
 
+<h3 align="center"> Animated Navigation Project</h3>
+
+![Screenshot-animated-navigation](https://user-images.githubusercontent.com/15934054/118579921-f037e000-b75c-11eb-8be3-d1098d10e396.gif)
+
+  <p align="center">
+    <a href="https://practical-albattani-658aef.netlify.app/"><strong>View Demo »</strong></a>
+  </p>
+
 ### Built With.
 
 * HTML
